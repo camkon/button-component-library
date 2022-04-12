@@ -9,7 +9,7 @@ interface Props {
 }
 
 const InputField:React.FC<Props> = ({todo, setTodo, handleAdd}) => {
- 
+
     return(
         <form id='input-container'>
             <input 

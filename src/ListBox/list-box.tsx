@@ -13,7 +13,14 @@ const ListBox: React.FC<Props> = ({todos, setTodos}) => {
         {
             todos.map((i) => {
                 return(
-                    <div id="list-indi-box">{i.todo}</div>
+                    <div className="list-indi-box">
+                        <div className="list-text">{i.todo}</div>
+                        <div className="todo-btns-box">
+                            <span className="todo-btn">Edit</span>
+                            <span className="todo-btn">Delete</span>
+                            <span className="todo-btn">Done</span>
+                        </div>
+                    </div>
                 )
             })
         }

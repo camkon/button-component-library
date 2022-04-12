@@ -10,14 +10,38 @@
     padding-bottom: 7rem;
 }
 
-#list-indi-box {
+.list-indi-box {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 3rem;
-    min-width: 34rem;
+    width: 34rem;
     margin: 0.5rem;
-    padding: 0 1.25rem;
+    padding: 0 0.5rem 0 1rem;
     border-radius: 0.5rem;
     box-shadow: 0px 0px 15px 0 #eee;
     box-sizing: border-box;
+}
+
+.list-text {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.todo-btn-box {
+    display: flex;
+}
+
+.todo-btn {
+    padding: 0.3rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+}
+.todo-btn:hover {
+    background-color: #eee;
 }
