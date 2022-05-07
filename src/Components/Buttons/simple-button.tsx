@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Simple = () => {
-    return(
-        <div id="btn-simple-cont">
-            <Button>SIMPLE BUTTON</Button>
-        </div>
-    )
+interface SimpleButtonProps {
+    label: string;
+}
+
+const Simple = (props: SimpleButtonProps) => {
+
+    return <Button>{props.label}</Button>
+
 }
 
 export default Simple;
