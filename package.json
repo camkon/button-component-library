@@ -1,7 +1,7 @@
 {
-  "name": "button-component-library",
+  "name": "@camkon/buttons-library",
   "version": "0.0.1",
-  "description": "react button component library",
+  "description": "buttons component library",
   "author": "ansaf",
   "private": true,
   "dependencies": {
