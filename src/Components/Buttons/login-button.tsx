@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Login = () => {
-    return(
-        <div id="btn-simple-cont">
-            <Button>Login BUTTON</Button>
-        </div>
-    )
+interface LoginButtonProps {
+    label: string;
+}
+
+const Login = (props: LoginButtonProps) => {
+
+    return <Button>LOGIN BUTTON</Button>
+
 }
 
 export default Login;
@@ -18,5 +20,3 @@ const Button = styled.button`
     color: #fff;
     border-radius: 0.5rem;
 `
-
-// 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
