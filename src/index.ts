@@ -8,7 +8,7 @@
 // const root = ReactDom.createRoot(container);
 
 // root.render(<div>
-//     <Simple label='SIMPLE'/>
+//     <Simple/>
 //     <Login label='LOGIN'/>
 // </div>)
 

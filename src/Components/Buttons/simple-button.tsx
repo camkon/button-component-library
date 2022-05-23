@@ -5,8 +5,8 @@ interface SimpleButtonProps {
     label: string;
 }
 
-const Simple = (props: SimpleButtonProps) => {
-    return <Button>{props.label}</Button>
+const Simple = () => {
+    return <Button>SIMPLE BUTTON</Button>
 }
 
 export default Simple;
