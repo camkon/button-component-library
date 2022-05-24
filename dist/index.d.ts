@@ -1,5 +1,17 @@
 /// <reference types="react" />
-declare const Simple: () => JSX.Element;
+interface SimpleButtonProps {
+    action?: string;
+    label?: string;
+    padding?: string;
+    borderRadius?: string;
+    backgroundColor?: string;
+    fontSize?: string;
+    onClick?: any;
+}
+declare const Simple: {
+    (props: SimpleButtonProps): JSX.Element;
+    SimpleButtonProps: SimpleButtonProps;
+};
 
 interface LoginButtonProps {
     label: string;

@@ -7,10 +7,17 @@
 
 // const root = ReactDom.createRoot(container);
 
-// root.render(<div>
-//     <Simple/>
-//     <Login label='LOGIN'/>
-// </div>)
+// root.render(
+//     <div>
+//         <Simple 
+//           label='ANSAF'
+//           backgroundColor='red'
+//           fontSize='2rem'
+//         />
+//         <br />
+//         <Login label='LOGIN'/>
+//     </div>
+// )
 
 
 export * from './Components';
